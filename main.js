@@ -36,10 +36,10 @@ switch (a){
         "</div>";
     break;
     case 1:
-        container.innerHTML = "<div style='margin: auto;text-align: center; width: 605px'><img style='width: 100%;' src='/img/español.png'>" +
+        container.innerHTML = "<div style='margin: auto;text-align: center; width: 605px'><img style='width: 100%;' src='./img/español.png'>" +
             "<div class='flip-box'><div id='exc11' class='flip-box-inner'><div class='flip-box-front' ><img style='width: 300px; height: 100%;' src='img/parte1.png' alt='games'></div><div class='flip-box-back' id='r11' >" +
             "<h2>ortografía</h2>" +
-            "<p  ><input id='exc1' type='hidden' value='P'>MA_A<br><img src='/img/mapa.png' style='width: 25%;'></p><input id='r1' onchange='checkSpanish(r1, exc1)' type='text' style='text-transform: uppercase'>" +
+            "<p  ><input id='exc1' type='hidden' value='P'>MA_A<br><img src='./img/mapa.png' style='width: 25%;'></p><input id='r1' onchange='checkSpanish(r1, exc1)' type='text' style='text-transform: uppercase'>" +
             "</div></div></div>" +
             "<div class='flip-box'><div id='exc21' class='flip-box-inner'><div class='flip-box-front'><img  style='width: 300px; height: 100%;' src='img/parte2.png' alt='games'></div><div id='r21' class='flip-box-back'>" +
             "<h2>ortografía</h2>" +
