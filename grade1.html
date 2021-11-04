@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Grade1</title>
+</head>
+<body>
+<div class="header">
+</div>
+<div class="navbar">
+    <a href="index.html" class="active">HOME</a>
+    <a href="grade1.html">GRADE 1</a>
+    <a href="">GRADE 2</a>
+</div>
+<div id="container" class="row">
+    <div class="side">
+
+
+        <div class="contimg" ><img src="/img/grade1.png" alt="grade 1" style="width: 800px; height: 300px;"></div>
+        <p>Some text about..</p>
+        <h3>Subjects</h3>
+        <p>Select the subject</p>
+        <div class="subjectsContainer" style="height:60px;"><input class="subjects" type="button" value="Mathematics"></div><br>
+        <div class="subjectsContainer" style="height:60px;"><input class="subjects" type="button" value="Spanish"></div><br>
+        <div class="subjectsContainer" style="height:60px;"><input class="subjects" type="button" value="History"></div>
+    </div>
+</div>
+<script>
+    /* Subject selected */
+
+
+    let listSubjects = document.querySelectorAll(".subjects");
+
+    for(let i = 0; i < listSubjects.length; i++){
+
+        listSubjects[i].addEventListener("click", function subjectSelect(){
+            let math, spanish, english, arts, science;
+            math = 0;
+            spanish = 1;
+            english = 2;
+            arts = 3;
+            science = 4;
+
+            switch (i){
+                case 0:
+                    insertGame(0)
+                    break;
+                case 1:
+                    insertGame(1)
+                    break;
+                case 2:
+                    insertGame(2)
+                    break;
+                case 3:
+                    insertGame(3)
+                    break;
+            }
+        })
+    }
+</script>
+</body>
+</html>
