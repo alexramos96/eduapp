@@ -3,10 +3,10 @@ function insertGame(a){
 let container = document.getElementById("container");
 switch (a){
     case 0:
-    container.innerHTML = "<div style='margin: auto;text-align: center; width: 605px'><img alt='' style='width: 100%;' src='/img/mate_classroom.png'><p style='font-size: 1em'>Las 4 operaciones fundamentales de las matemáticas son la suma, resta, multiplicación y división.\n<br>" +
+    container.innerHTML = "<div style='margin: auto;text-align: center; width: 605px'><img alt='' style='width: 100%;' src='./img/mate_classroom.png'><p style='font-size: 1em'>Las 4 operaciones fundamentales de las matemáticas son la suma, resta, multiplicación y división.\n<br>" +
         "<br><strong>SUMAS</strong>  \n<br>" +
         "<br> Se representa con el símbolo + y consiste en añadir a un solo conjunto diversas cantidades, por ejemplo \n" +
-        "2+3 = 5 \n<br><img alt='' src='/img/hamburgesa.png' style='width: 30px; height: 30px;'><img alt='' src='/img/hamburgesa.png' style='width: 30px; height: 30px;'><br><img alt='' src='/img/hamburgesa.png' style='width: 30px; height: 30px;'><img alt='' src='/img/hamburgesa.png' style='width: 30px; height: 30px;'><img alt='' src='/img/hamburgesa.png' style='width: 30px; height: 30px;'>" +
+        "2+3 = 5 \n<br><img alt='' src='./img/hamburgesa.png' style='width: 30px; height: 30px;'><img alt='' src='./img/hamburgesa.png' style='width: 30px; height: 30px;'><br><img alt='' src='./img/hamburgesa.png' style='width: 30px; height: 30px;'><img alt='' src='./img/hamburgesa.png' style='width: 30px; height: 30px;'><img alt='' src='./img/hamburgesa.png' style='width: 30px; height: 30px;'>" +
         "\n" +
 
         " \n" +
